@@ -1,0 +1,115 @@
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .errorMessage{
+    color: red;
+    font-size: 15px;
+    padding: 0;
+    /* gap: 3px; */
+    display: inline;
+    /* margin: 0; */
+  }
+  
+  
+  fieldset {
+    font-size: 18px;
+  }
+  
+  fieldset h2{
+    font-size: 2rem;
+  }
+  
+  form {
+    border: 3px solid rgb(31, 40, 119);
+    border-radius: 10px 10px 0 0;
+  
+  }
+  .writeus,
+  .reachus {
+    width: 50%;
+  }
+  
+  .writeus {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin-left: 3rem;
+    padding: 0;
+    position: relative;
+  }
+  
+  .reachus {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-right: 3rem;
+    width: 50%;
+    color: aliceblue;
+    align-items: center;
+    background-color: rgb(31, 40, 119);
+    border-radius: 10px;
+    /* align-items: center; */
+    /* position: relative; */
+  }
+  .fields {
+    /* gap: 2rem; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-bottom: 0;
+    margin-right: 3rem;
+    padding: 20px 5px;
+    border: none;
+    /* height: 100%; */
+    padding-bottom: 0;
+    align-items: center;
+  }
+  
+  .field {
+    width: 80%;
+    margin: 0;
+    background-color: none;
+    padding: 0.5rem;
+  }
+  
+  .email,
+  .name,
+  .tel,
+  .message {
+    width: 100%;
+    padding: 10px 2px;
+    border-radius: 4px;
+    border: 1px solid gray;
+    background: none;
+    color: white;
+  }
+  
+  .send {
+    padding: 12px 2px;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgb(31, 40, 119);
+    color: aliceblue;
+    border: none;
+    border-radius: 10px 10px 0 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+  }
+  
+  .send:hover {
+    background-color: rgb(5, 51, 5);
+    color: aliceblue;
+  }
+  .sendDiv {
+    position: relative;
+    width: 100%;
+    margin-top: 60px;
+  }
